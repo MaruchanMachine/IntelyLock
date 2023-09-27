@@ -1,0 +1,112 @@
+.barra {
+    display: flex;
+    align-items: center;
+    background-color: #8CA7FF;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    height: 80px;
+}
+
+.logo img {
+    height: 80px;
+    margin-top: 0%;
+    margin-left: 25%;
+}
+
+/* Estilo para el select personalizado */
+.custom-select {
+    font-size: 150%;
+    position: absolute;
+    right: 2%;
+    top: 1.5%;
+
+    display: inline-block;
+    cursor: pointer;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    font-family: Calibri;
+}
+
+.custom-select select:hover{
+    color: white;
+}
+
+.custom-select::after {
+    content: '\02C7'; /* Código de la flecha hacia abajo en Unicode */
+    font-size: 150%; /* Tamaño del icono */
+    position: absolute;
+    top: 72%;
+    right:40%; /* Ajusta la posición del icono según tus necesidades */
+    transform: translateY(-50%);
+    color: #18185E; /* Color del icono */
+    background-color: transparent; /* Color de fondo transparente */
+    pointer-events: none; /* Evita que el icono sea interactivo */
+}
+
+/* Estilo para el select personalizado */
+.custom-select select {
+    width: 100%;
+    padding: 10px; /* Ajusta el espaciado según tus necesidades */
+    border: none !important;
+    border-radius: 10px;
+    background-color: #8CA7FF !important;
+    color: #18185E;
+    appearance: none; /* Oculta el estilo predeterminado del select */
+    outline: none;
+    cursor: pointer;
+}
+
+/* Estilo para las opciones del select */
+.custom-select select option {
+    background-color: #8CA7FF !important;
+    color: #18185E;
+}
+
+/* Estilo para las opciones cuando se pasa el cursor sobre ellas */
+.custom-select select option:hover {
+    background-color: #6B8DD6; /* Cambia el color al pasar el cursor sobre las opciones */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh; /* Establece la altura del contenedor al 100% del viewport */
+}
+
+.tabla-container {
+    max-height: 400px; /* Altura máxima deseada para la tabla */
+    overflow-y: auto; /* Habilita la barra de desplazamiento vertical cuando sea necesario */
+    border: 1px solid #18185E; /* Borde alrededor del contenedor */
+}
+
+table.sticky-header {
+    font-family: Calibri, serif;
+    font-size: large;
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+table.sticky-header th, table.sticky-header td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #18185E;
+    background-color: #E4ECF7;
+    color: #18185E;
+}
+
+table.sticky-header th {
+    background-color: #E4ECF7;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+table.sticky-header tr:first-child th,
+table.sticky-header tr:first-child td {
+    background-color: #8CA7FF;
+    color: #E4ECF7;
+}
+

@@ -1,0 +1,66 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    font-family: Calibri;
+    color: #18185E;
+}
+
+img {
+    width: 600px;
+    height: 320px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    font-size: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    color: #18185E;
+    border: 2px solid #18185E;
+    border-radius: 10px;
+}
+
+.inputUsuario {
+    position: fixed;
+    top: 80%;
+    right: 40%;
+    z-index: 1000;
+}
+
+.btnIniciarSesion_posicion {
+    position: fixed; /* Fija el contenedor en la ventana */
+    top: 80%; /* Distancia desde la parte superior (2% del alto de la ventana) */
+    right: 40%; /* Distancia desde la derecha (2% del ancho de la ventana) */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+.btniniciarsesion {
+    font-size: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    background-color: #8CA7FF;
+    color: #E4ECF7;
+    border: 8px solid #8CA7FF;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.btniniciarsesion:hover {
+    background-color: #FF8793;
+    border: 8px solid #FF8793;
+    border-radius: 12px;
+    color: #E4ECF7;
+}
+
+div {
+    width: 300px;
+}

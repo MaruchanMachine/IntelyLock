@@ -1,0 +1,180 @@
+.barra {
+    display: flex;
+    align-items: center;
+    background-color: #8CA7FF;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    height: 80px;
+}
+
+.logo img {
+    height: 80px;
+    margin-top: 0%;
+    margin-left: 11.8%;
+}
+
+
+h1 {
+    font-family: Calibri;
+    color: #18185E;
+    margin-top: 10%;
+}
+
+input {
+    font-size: 35px;
+    background-color: #E4ECF7;
+    font-family: Calibri;
+    color: #18185E;
+    border: 2px solid #18185E;
+    border-radius: 10px;
+}
+
+.aulas {
+    font-size: 35px;
+    background-color: #E4ECF7;
+    font-family: Calibri;
+    color: #18185E;
+    border: 2px solid #18185E;
+    border-radius: 10px;
+}
+
+.custom-select {
+    font-size: 150%;
+    position: absolute;
+    right: 2%;
+    top: 1.5%;
+    display: inline-block;
+    cursor: pointer;
+    width: 200px; /* Ajusta el ancho según tus necesidades */
+    font-family: Calibri;
+}
+
+.custom-select::after {
+    content: '\02C7';
+    font-size: 150%;
+    position: absolute;
+    top: 72%;
+    right:40%;
+    transform: translateY(-50%);
+    color: #18185E;
+    background-color: transparent;
+    pointer-events: none;
+}
+
+.custom-select select {
+    width: 100%;
+    padding: 10px; /* Ajusta el espaciado según tus necesidades */
+    border: none !important;
+    border-radius: 10px;
+    background-color: #8CA7FF !important;
+    color: #18185E;
+    appearance: none; /* Oculta el estilo predeterminado del select */
+    outline: none;
+    cursor: pointer;
+}
+
+.custom-select select:hover{
+    color: white;
+}
+
+.custom-select select option {
+    background-color: #8CA7FF !important;
+    color: #18185E;
+}
+
+.cerrarPuerta{
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    background-color: #8CA7FF;
+    color: #E4ECF7;
+    border: 8px solid #8CA7FF;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    position: absolute;
+    top: 14%;
+    right: 2%;
+}
+
+.cerrarPuerta:hover {
+    background-color: #FF8793;
+    border: 8px solid #FF8793;
+    border-radius: 12px;
+    color: #E4ECF7;
+}
+
+.ingresarDatos {
+    font-size: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    background-color: #8CA7FF;
+    color: #E4ECF7;
+    border: 8px solid #8CA7FF;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.ingresarDatos:hover {
+    background-color: #FF8793;
+    border: 8px solid #FF8793;
+    border-radius: 12px;
+    color: #E4ECF7;
+}
+
+div {
+    width: 300px;
+}
+
+.boton-esquina {
+    position: fixed; /* Fija el contenedor en la ventana */
+    top: 3%; /* Distancia desde la parte superior (2% del alto de la ventana) */
+    left: -3%; /* Distancia desde la derecha (2% del ancho de la ventana) */
+}
+
+.boton-sistemaAccesos {
+    position: fixed; /* Fija el contenedor en la ventana */
+    top: 12%; /* Distancia desde la parte superior (2% del alto de la ventana) */
+    left: -2%; /* Distancia desde la derecha (2% del ancho de la ventana) */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+.boton-aulaAccesos {
+    position: fixed; /* Fija el contenedor en la ventana */
+    top: 21%; /* Distancia desde la parte superior (2% del alto de la ventana) */
+    left: -2.75%; /* Distancia desde la derecha (2% del ancho de la ventana) */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+.boton-cerrarSesion {
+    position: fixed; /* Fija el contenedor en la ventana */
+    top: 3%; /* Distancia desde la parte superior (2% del alto de la ventana) */
+    right: -3%; /* Distancia desde la derecha (2% del ancho de la ventana) */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+/* Estilos para el botón */
+.btnIngresar {
+    font-size: 22px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Calibri;
+    background-color: #8CA7FF;
+    color: #E4ECF7;
+    border: 8px solid #8CA7FF;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.btnIngresar:hover {
+    background-color: #FF8793;
+    border: 8px solid #FF8793;
+    border-radius: 12px;
+    color: #E4ECF7;
+}
